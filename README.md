@@ -1,15 +1,20 @@
 # Chocolate-Sales-SQL-Project
-A hands-on SQL project focused on exploring chocolate sales data and solving business problems  through data analysis, aggregation, joins, subqueries, and advanced SQL techniques.
-# 🍫 30 Days Data Analytics Challenge – Day 3: Chocolate Sales SQL Project
+Conducted a comprehensive SQL analysis of a chocolate retail dataset using Microsoft SQL Server Management Studio (SSMS), examining sales trends, product performance, customer purchasing patterns, and store revenue across various business dimensions.
+
+## Table Of Content
 
 ## 📌 Project Overview
 
-This project is part of my **30 Days Data Analytics Challenge**, where I continuously build and improve my data analytics skills through practical projects.
+This project represents a real-world business intelligence analysis for a chocolate retail company. Using SQL, I addressed 20 business questions that required applying key database concepts, including joins, aggregate functions, subqueries, and data filtering techniques.I worked with this **Chocolate Sales Dataset** to strengthen my SQL querying skills and apply core database concepts to solve more real-world business questions.
 
-For Day 3, I worked with a **Chocolate Sales Dataset** to strengthen my SQL querying skills and apply core database concepts to solve real-world business questions.
 
-The project focuses on analyzing sales performance, customer behavior, product trends, and store performance using SQL.
+The purpose of the analysis was to extract valuable business insights and support data-driven decision-making in areas such as:
 
+* Revenue and profit trends
+* Top-performing products, brands, and stores
+* Customer segmentation by loyalty status and gender
+* Geographic performance across cities and countries
+  
 ---
 
 ## 🎯 Project Objectives
@@ -27,6 +32,16 @@ The goal of this project is to practice and demonstrate proficiency in:
 * Business-Oriented SQL Analysis
 
 ---
+
+## Tools & Technologies
+| TOOLS                                              | Purpose                      |
+| -------------------------------------------------- | -------------------------------- |
+| Microsoft SQL Server Management Studio (SSMS       | Unique identifier for each order |
+| SQL Server (T-SQL)                                 | Order transaction date           |
+| CSV Files                                          | Unique customer identifier       |
+| GitHub | linkedln                                  | Product purchased                |
+
+
 
 ## 📊 Dataset Information
 

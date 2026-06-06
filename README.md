@@ -3,23 +3,41 @@ Conducted a comprehensive SQL analysis of a chocolate retail dataset using Micro
 
 ## Table Of Content
 
+* [Project Overview]
+* [Project Objectives]
+* [Tools & Technologies]
+* [Database Setup]
+* [Dataset Description]
+* [Business Questions & SQL Solutions]
+  
+   * [Section A: Exploratory Queries (Q1–Q10)]
+     
+   * [Section B: Multi-Table Analysis — (Q11 to Q20)]
+* [Key Findings & Insights]
+* [Business Strategy  & Recommendations ⭐]
+* [⚙️Skills Demonstrated]
+* [📂 Repository Structure]
+* [💡 Learning Outcome]
+* [Author]
+  
+  ---
+
 ## 📌 Project Overview
 
 This project represents a real-world business intelligence analysis for a chocolate retail company. Using SQL, I addressed 20 business questions that required applying key database concepts, including joins, aggregate functions, subqueries, and data filtering techniques.I worked with this **Chocolate Sales Dataset** to strengthen my SQL querying skills and apply core database concepts to solve more real-world business questions.
 
+---
 
-The purpose of the analysis was to extract valuable business insights and support data-driven decision-making in areas such as:
+## 🎯 Project Objectives
+
+The purpose and goal of the analysis was basically to extract valuable business insights and support data-driven decision-making in areas such as:
 
 * Revenue and profit trends
 * Top-performing products, brands, and stores
 * Customer segmentation by loyalty status and gender
 * Geographic performance across cities and countries
   
----
-
-## 🎯 Project Objectives
-
-The goal of this project is to practice and demonstrate proficiency in:
+And also to practice and demonstrate proficiency in:
 
 * Aggregation Functions (`SUM`, `AVG`, `COUNT`)
 * `GROUP BY` and `HAVING`
@@ -70,6 +88,7 @@ The goal of this project is to practice and demonstrate proficiency in:
 | Customers        | Customer records including gender and loyalty membership status                                                                       |
 | Stores           | Store details including store name, city, country, and store type                                                                     |
 | Calender         | Date dimension table for time-based analysis                                                                                          |
+
 
 
 ## 📈  Business Questions & SQL Solutions
@@ -213,7 +232,7 @@ The following queries explore each table making use of  SELECT, COUNT, SUM, MIN,
 
 **Insight**: All orders are profitable (minimum profit > $0), suggesting no loss-making transactions exist. The wide range ($0.73 to $37.43) reflects variation in order size and discount depth.
 
-## Section B: Multi-Table Analysis — Q11 to Q20
+## Section B: Multi-Table Analysis — (Q11 to Q20)
 
 These queries use JOIN, GROUP BY, ORDER BY, TOP, CASE WHEN, AVG, and subqueries to answer deeper cross-table analytical questions.
 
@@ -228,7 +247,7 @@ These queries use JOIN, GROUP BY, ORDER BY, TOP, CASE WHEN, AVG, and subqueries 
     GROUP BY p.category
     ORDER BY Total_Quantity_Sold DESC;
 
-Result:
+## Result:
 | Category	        | Total_Quantity_Sold         |
 | ----------------  | --------------------------- |
 | Praline           | 784,435                     |
@@ -251,7 +270,7 @@ Result:
     GROUP BY st.store_name, st.city
     ORDER BY Total_Revenue DESC;
 
-Result (Top 5 stores):
+## Result (Top 5 stores):
 | store_name         | City         | Total_Revenue               |
 | ----------------   | -------------|---------------------------- |
 | Chocolate Store 74 | Sydney	      |   $261,393.77               |
@@ -433,8 +452,9 @@ Sample products above average price:
 
 
 ## 💡 Key Findings & Insights
+---
 
- Finding
+## Finding
                                 
 1.  Total Revenue: $25.5M — Strong two-year performance across a 100-store global network
 
@@ -456,7 +476,7 @@ Sample products above average price:
 
 10. 25 premium-tier products priced at $15.00, all above the $9.00 catalogue average
 
-## Business Recommendations & Strategy⭐
+## Business Strategy  & Recommendations ⭐
 ---
 
 1. Optimize Discount Strategy
@@ -543,7 +563,7 @@ Sample products above average price:
 
 ---
 
-🧠 Skills Demonstrated🚀
+ ## ⚙️Skills Demonstrated
 
    * ✅ Database creation and structured CSV data import in SSMS
 
@@ -601,8 +621,4 @@ This project helped reinforce fundamental and intermediate SQL concepts while im
 
 ---
 
-### Connect With Me
-
-If you're interested in data analytics, SQL, Power BI, Excel, or Python projects, feel free to connect with me and follow my learning journey.
-
-⭐ If you found this project helpful, consider giving the repository a star.
+*⭐ If you found this project helpful, consider giving the repository a star.*

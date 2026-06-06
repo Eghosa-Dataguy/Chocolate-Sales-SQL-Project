@@ -1,6 +1,8 @@
 # Chocolate-Sales-SQL-Project
 Conducted a comprehensive SQL analysis of a chocolate retail dataset using Microsoft SQL Server Management Studio (SSMS), examining sales trends, product performance, customer purchasing patterns, and store revenue across various business dimensions.
 
+---
+
 ## Table Of Content
 
 * [Project Overview]
@@ -452,7 +454,6 @@ Sample products above average price:
 
 
 ## 💡 Key Findings & Insights
----
 
 ## Finding
                                 
@@ -477,7 +478,6 @@ Sample products above average price:
 10. 25 premium-tier products priced at $15.00, all above the $9.00 catalogue average
 
 ## Business Strategy  & Recommendations ⭐
----
 
 1. Optimize Discount Strategy
 
